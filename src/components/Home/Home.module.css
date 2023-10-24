@@ -1,0 +1,29 @@
+.mainhome{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 5rem;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+.card{
+    padding: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1),0px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card h1{
+    font-size: 16px;
+    color: gray;
+}
+.card img{
+   height: 100px;
+   width: 100px;
+}
